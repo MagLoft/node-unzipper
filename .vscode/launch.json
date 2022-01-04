@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "type": "pwa-node",
+    "request": "launch",
+    "name": "test:gcs",
+    "skipFiles": ["<node_internals>/**"],
+    "program": "${workspaceFolder}/test/openGcs.js"
+  }]
+}
