@@ -58,6 +58,7 @@
     "extract"
   ],
   "main": "unzip.js",
+  "types": "unzip.d.ts",
   "scripts": {
     "test": "tap test/*.js --jobs=10 --coverage-report=html --no-browser"
   }
