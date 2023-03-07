@@ -58,6 +58,7 @@ export namespace Open {
     opt: string | RequestOptions
   ): Promise<CentralDirectory>
   function s3(client: any, params: any): Promise<CentralDirectory>
+  function storage(storage: { provider: { client: { parent: any }, details: { bucket?: string } } }, key: string): Promise<CentralDirectory>
   function gcs(client: any, params: any): Promise<CentralDirectory>
 }
 
